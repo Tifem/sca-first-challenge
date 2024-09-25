@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       external: [
        
-        '@fortawesome/react-fontawesome'  // Explicitly externalize FontAwesome package
+        
       ]
     }
   }
