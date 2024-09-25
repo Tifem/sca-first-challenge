@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'uuid',  // Externalize 'uuid'
+        '/uuid',  // Externalize 'uuid'
         '@fortawesome/react-fontawesome'  // Explicitly externalize FontAwesome package
       ]
     }
