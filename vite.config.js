@@ -5,10 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: [
-       
-        
-      ]
+      external: []  // Ensure FontAwesome is not listed here
     }
   }
 });
